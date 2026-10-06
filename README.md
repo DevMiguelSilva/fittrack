@@ -25,3 +25,5 @@ Copy `.env.example` → `.env` and add Supabase keys when you want cloud sync. R
 ## Deployment
 
 Connect `DevMiguelSilva/fittrack` to the existing Vercel project `fit-tracker`, with Root Directory empty. See [DEPLOY.md](DEPLOY.md).
+
+Local standalone workspace: `C:\Dev\Projects\fittrack`. Commands run from this repository root.
