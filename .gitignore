@@ -28,3 +28,9 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Standalone build output and deployment metadata
+node_modules/
+dist/
+*.tsbuildinfo
+.vercel/

@@ -14,11 +14,14 @@ Empty on first launch — you add your own routines. Cloud login is optional (Su
 ## Run
 
 ```bash
-cd fit-tracker
-npm install
+npm ci
 npm run dev
 ```
 
 [http://localhost:5175](http://localhost:5175)
 
 Copy `.env.example` → `.env` and add Supabase keys when you want cloud sync. Run `supabase/schema.sql` in that project’s SQL editor first.
+
+## Deployment
+
+Connect `DevMiguelSilva/fittrack` to the existing Vercel project `fit-tracker`, with Root Directory empty. See [DEPLOY.md](DEPLOY.md).
